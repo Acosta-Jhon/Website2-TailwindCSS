@@ -63,6 +63,7 @@ const Header = () => {
                             <li><a className="inline-block no-underline hover:text-black hover:bg-yellow-500 py-2 px-4 rounded-lg uppercase" href="/">Home</a></li>
                             <li><a className="inline-block no-underline hover:text-black hover:bg-yellow-500 py-2 px-4 rounded-lg uppercase" href="/">El proyecto</a></li>
                             <li><a className="inline-block no-underline hover:text-black hover:bg-yellow-500 py-2 px-4 rounded-lg uppercase" href="/">¿Cómo ayudar?</a></li>
+                            <li><a className="inline-block no-underline hover:text-black hover:bg-yellow-500 py-2 px-4 rounded-lg uppercase" href="/">Voluntarios</a></li>
                             <li><a className="inline-block no-underline hover:text-black hover:bg-yellow-500 py-2 px-4 rounded-lg uppercase" href="/">Donantes</a></li>
                             <li><a className="inline-block no-underline hover:text-black hover:bg-yellow-500 py-2 px-4 rounded-lg uppercase" href="/">Contacto</a></li>
                         </ul>

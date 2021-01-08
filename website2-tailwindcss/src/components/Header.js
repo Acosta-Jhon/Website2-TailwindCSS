@@ -70,7 +70,7 @@ const Header = () => {
                     </nav>
                 </div>
 
-                <div className="order-2 md:order-3 flex items-center" id="nav-content">
+                <div className="order-2 md:order-3 flex items-center px-2" id="nav-content">
                     <span className="rounded-full shadow-lg bg-gradient-to-r from-gray-600 to-yellow-500"
                         onClick={() => setTheme(colorTheme)}>
                         {colorTheme === "light" ? (

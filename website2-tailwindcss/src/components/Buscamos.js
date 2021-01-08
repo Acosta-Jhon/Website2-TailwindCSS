@@ -3,12 +3,12 @@ import pedido from '../assets/imagenes/pedido.png';
 
 const Buscamos = () => {
     return (
-        <div className="h-screen">
+        <div className="h-auto pb-10">
             <div className="bg-black  text-center text-gray-50 p-8">
                 <h1 className="font-semibold text-2xl">Buscamos:</h1>
                 <p> computadores usados <span className=" text-yellow-400 font-semibold"> 0 </span> Partes y piezas</p>
             </div>
-                <div className="grid lg:grid-cols-2 gap-6 sm:grid-cols-1 pt-10">
+                <div className="grid lg:grid-cols-2 gap-6 sm:grid-cols-1 pt-10 ">
                     <div className="relative lg:ml-60 lg:p-0 sm:p-10">
                         {/* Contenedor de información */}
                         <div class="lg:absolute sm:relative w-1/2 text-left z-40">
@@ -38,7 +38,7 @@ const Buscamos = () => {
                         </div>
                         {/* Fondo Gris */}
                         <div class="inset-y-0 right-0 bg-gray-100 float-right mt-10 py-10 pl-20">
-                            <div class="inset-y-0 right-0 bg-yellow-50 float-right ml-28 -mr-6">
+                            <div class="inset-y-0 right-0 bg-yellow-50 float-right ml-10 -mr-6 w-3/4">
                                 <p class="p-4">
                                     <span class="float-left mr-2">
                                         <svg class="h-8 w-8 text-secondary hover:text-accent transition duration-100"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">

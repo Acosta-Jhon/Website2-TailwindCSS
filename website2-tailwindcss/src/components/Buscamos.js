@@ -12,8 +12,8 @@ const Buscamos = () => {
                 <div className="relative lg:ml-60 lg:p-0 sm:p-10 p-5">
                     {/* Contenedor de información */}
                     <div className="lg:absolute sm:relative w-1/2 text-left z-40 text-gray-800">
-                        <div>
-                            <h1 className="font-bold text-4xl dark:text-gray-200">¿CÓMO</h1>
+                        <div className="dark:text-gray-200">
+                            <h1 className="font-bold text-4xl">¿CÓMO</h1>
                             <h1 className="font-semibold text-4xl ">PUEDO AYUDAR?</h1>
                             <hr className="border-yellow-400 border-2 w-1/5 mt-5"></hr>
                             <p className="pt-6">Buscamos computadores usados,partes y repuestos para

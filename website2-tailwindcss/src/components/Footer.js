@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <div className="antialiased bg-white font-sans text-gray-800">
             <main className="w-full">
-                <div class="flex ...">
+                <div class="flex">
                     <div class="w-1/3 ">
                         <footer className="relative bg-gray-600 text-white px-4 sm:px- lg:px-16 xl:px-z 2xl:px-64 py-2">
                             <ul className="mb-1 flex  w-full lg:w-1/4 lg:mx-4 lg:pr-10  space-x-4 " >
@@ -32,11 +32,11 @@ const Footer = () => {
             <main className="w-full">
                 <footer className="relative bg-gray-700 text-white px-4 sm:px- lg:px-16 xl:px-z 2xl:px-64 py-4">
                     <div className="flex flex-col md:flex-row  ">
-                        <div className="w-full lg:w-1/3 lg:mx-4 lg:pr-8 "   >
-                            <h3 className="uppercase tracking-wider " >PARTICIPA CON NOSOTROS:</h3>
+                        <div className="w-full lg:w-1/3 lg:mx-4 lg:pr-8  font-normal" >
+                            <h3 className="uppercase tracking-wider border-b-2" >PARTICIPA CON NOSOTROS:</h3>
                             <ul className="mt-8">
                                 <li className="mt-2">
-                                    <a href="/" title className="opacity-75 hover:opacity-100">Dirección:Ambato y García Moreno,</a>
+                                    <a href="/" title className="opacity-75 hover:opacity-100">Dirección: Ambato y García Moreno,</a>
                                 </li>
                                 <li className="mt-2">
                                     <a href="/" title className="opacity-75 hover:opacity-100">Campus: ISTYAVIRAC</a>
@@ -45,12 +45,12 @@ const Footer = () => {
                                     <a href="/" title className="opacity-75 hover:opacity-100">Teléfono: (593) 999 705 620</a>
                                 </li>
                                 <li className="mt-2">
-                                    <a href="/" title className="opacity-75 hover:opacity-100">Email:probayo@yavirac.edu.ec</a>
+                                    <a href="/" title className="opacity-75 hover:opacity-100">Email: probayo@yavirac.edu.ec</a>
                                 </li>
                             </ul>
                         </div>
                         <div className="w-full lg:w-2/3 lg:mx-4 lg:pr-8  mt-8 lg:mt-0 " >
-                            <h3 className="uppercase tracking-wider  " >lINKS DE INTERÉS:</h3>
+                            <h3 className="uppercase tracking-wider border-b-2" >lINKS DE INTERÉS:</h3>
                             <ul className="mt-8">
                                 <li className="mt-2">
                                     <a href="http://yavirac.edu.ec/" title className="opacity-75 hover:opacity-100">ISTYAVIRAC</a>

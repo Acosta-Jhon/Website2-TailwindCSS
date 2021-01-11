@@ -4,16 +4,16 @@ import img from '../assets/images/imgBuscamos.jpg';
 const Buscamos = () => {
     return (
         <div className="h-screen">
-            <div className="bg-gray-900  text-center text-gray-50 p-8">
+            <div className="bg-gray-900  text-center p-8 text-gray-200">
                 <h1 className="font-semibold text-2xl">Buscamos:</h1>
                 <p> computadores usados <span className=" text-yellow-400 font-semibold"> 0 </span> Partes y piezas</p>
             </div>
             <div className="grid lg:grid-cols-2 gap-6 sm:grid-cols-1 pt-10">
                 <div className="relative lg:ml-60 lg:p-0 sm:p-10 p-5">
                     {/* Contenedor de información */}
-                    <div className="lg:absolute sm:relative w-1/2 text-left z-40">
+                    <div className="lg:absolute sm:relative w-1/2 text-left z-40 text-gray-800">
                         <div>
-                            <h1 className="font-bold text-4xl ">¿CÓMO</h1>
+                            <h1 className="font-bold text-4xl dark:text-gray-200">¿CÓMO</h1>
                             <h1 className="font-semibold text-4xl ">PUEDO AYUDAR?</h1>
                             <hr className="border-yellow-400 border-2 w-1/5 mt-5"></hr>
                             <p className="pt-6">Buscamos computadores usados,partes y repuestos para
@@ -40,7 +40,7 @@ const Buscamos = () => {
                         </div>
                     </div>
                     {/* Fondo Gris */}
-                    <div className="inset-y-0 right-0 bg-gray-100 float-right mt-10 py-10 pl-20 hidden md:block">
+                    <div className="inset-y-0 right-0 bg-gray-100 float-right mt-10 py-10 pl-20 hidden md:block dark:text-gray-800">
                         <div className="inset-y-0 right-0 bg-yellow-50 float-right ml-28 -mr-6">
                             <p className="p-4">
                                 <span className="float-left mr-2">
@@ -80,7 +80,7 @@ const Buscamos = () => {
                     {/* Contenedor de las opciones */}
                 </div>
                 {/* Imagen */}
-                <div className="relative md:block hidden">
+                <div className="relative md:block hidden"> {/*CORREGIR ESTA LINEA PARA QUE SE VEA LA IMAGEN QUITAR /HIDDEN/ Y AJUSTAR LA IMAGEN*/}
                     <div className="lg:absolute sm:relative">
                         <img src={img} alt="img"/>
                     </div>

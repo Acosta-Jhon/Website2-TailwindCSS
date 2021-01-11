@@ -19,15 +19,21 @@ function CarouselComponent() {
         >
             <div className="flex justify-center items-center">
                 <img src={carousel1} alt="pic1" />
-                <p className="legend uppercase font-serif">Equipamos el futuro hoy</p>
+                <p className="legend uppercase font-serif">DA UNA MANO AMIGA A ESTUDIANTES DE INSTITUTOS TECNOLÓGICOS SUPERIORES
+                &nbsp;
+                <button className="bg-yellow-500 hover:bg-yellow-600 p-2 px-3 uppercase">Quiero donar</button>
+                </p>
             </div>
             <div>
                 <img src={carousel2} alt="pic2" />
-                <p className="legend uppercase font-serif">Dona tu Computador que no usas</p>
+                <p className="legend uppercase font-serif">CON MOTIVO DEL COVID 19 MUCHOS ESTUDIANTES Y SUS FAMILIAS SE VIERON AFECTADOS</p>
             </div>
-            <div>
+            <div className="flex">
                 <img src={carousel3} alt="pic3" />
-                <p className="legend uppercase font-serif"> Extendiende tu mano para ayudar</p>
+                <p className="legend uppercase font-serif px-2">TU APOYO DA ACCESO A CLASES VIRTUALES
+                &nbsp;
+                <button className="bg-yellow-500 hover:bg-yellow-600 p-2 px-3 uppercase">!Dona Ahora!</button>
+                </p>
             </div>
         </Carousel>
     );

@@ -1,5 +1,5 @@
 import React from 'react'
-import pedido from '../assets/imagenes/pedido.png';
+import pedido from '../assets/imagenes/pedido.jpg';
 
 const Buscamos = () => {
     return (
@@ -79,8 +79,8 @@ const Buscamos = () => {
                     </div>
                     {/* Imagen */}
                     <div class="relative">
-                        <div class="lg:absolute sm:relative">
-                            <img src={pedido} alt="img"></img>
+                        <div class="img-responsive lg:w-1/2 sm:w-100" >
+                            <img src={pedido}  alt="img"></img>
                         </div>
                     </div>
                 </div>          

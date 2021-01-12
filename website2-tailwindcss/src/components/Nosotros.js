@@ -8,8 +8,8 @@ const Nosotros = () => {
     return (
         <div className=" md:flex pt-10 pb-20 px-2 dark:text-gray-200 items-center justify-center md:px-20">
             <div className="px-4 md:w-4/6">
-                <div className="">
-                    <div>
+                <div>
+                    <div className="font-serif">
                         <h1 className="text-5xl font-bold">
                             ¿QUÉ
                         </h1>

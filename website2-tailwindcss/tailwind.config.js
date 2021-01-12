@@ -644,7 +644,7 @@ module.exports = {
       colors: 'background-color, border-color, color, fill, stroke',
       opacity: 'opacity',
       shadow: 'box-shadow',
-      transform: 'transform',
+      transform: 'transform'
     },
     transitionTimingFunction: {
       DEFAULT: 'cubic-bezier(0.4, 0, 0.2, 1)',

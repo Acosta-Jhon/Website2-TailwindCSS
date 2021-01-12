@@ -1,90 +1,92 @@
 import React from 'react'
-import pedido from '../assets/imagenes/pedido.jpg';
+import pedido from '../assets/images/pedido.jpg';
+import abstracto from '../assets/images/degradado.jpg';
+import regalo from '../assets/images/regalo.png';
+import mano from '../assets/images/help-icon-4.png';
+import grupo from '../assets/images/help-icon-1.png';
+import persona from '../assets/images/help-icon-2.png';
 
 const Buscamos = () => {
     return (
-        <div className="h-auto pb-10">
-            <div className="bg-black  text-center text-gray-50 p-8">
-                <h1 className="font-semibold text-2xl">Buscamos:</h1>
-                <p> computadores usados <span className=" text-yellow-400 font-semibold"> 0 </span> Partes y piezas</p>
-            </div>
-                <div className="grid lg:grid-cols-2 gap-6 sm:grid-cols-1 pt-10 ">
-                    <div className="relative lg:ml-60 lg:p-0 sm:p-10">
-                        {/* Contenedor de información */}
-                        <div class="lg:absolute sm:relative w-1/2 text-left z-40">
-                            <div>
-                                <h1 class="font-bold text-4xl ">¿CÓMO</h1>
-                                <h1 class="font-semibold text-4xl ">PUEDO AYUDAR?</h1>
-                                <hr class="border-yellow-400 border-2 w-1/5 mt-5"></hr>
-                                <p class="pt-6">Buscamos computadores usados,partes y repuestos para
-                                    entregarlos a estudiantes del IST YAVIRAC que no
-                                    disponen al momento de equipos
-                                </p>
-                            </div>
-                            {/* BOTON DE APRENDER MAS */}
-                            <div class="pt-4">
-                            <button class="bg-yellow-500 pt flex flex-row">
-                                <div class="p-2">
-                                <span class="font-bold">LEARN MORE </span>
-                                </div>
-                                <div class="bg-black text-gray-50 p-2">
-                                    <a href="/" class="flex-auto">
-                                    <svg class="h-8 w-8 text-secondary hover:text-accent transition duration-100"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.707l-3-3a1 1 0 00-1.414 1.414L10.586 9H7a1 1 0 100 2h3.586l-1.293 1.293a1 1 0 101.414 1.414l3-3a1 1 0 000-1.414z" clip-rule="evenodd" />
-                                    </svg></a>
-                                </div>
-                            </button>
-                            </div>
-                        </div>
-                        {/* Fondo Gris */}
-                        <div class="inset-y-0 right-0 bg-gray-100 float-right mt-10 py-10 pl-20">
-                            <div class="inset-y-0 right-0 bg-yellow-50 float-right ml-10 -mr-6 w-3/4">
-                                <p class="p-4">
-                                    <span class="float-left mr-2">
-                                        <svg class="h-8 w-8 text-secondary hover:text-accent transition duration-100"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                        <path fill-rule="evenodd" d="M5 5a3 3 0 015-2.236A3 3 0 0114.83 6H16a2 2 0 110 4h-5V9a1 1 0 10-2 0v1H4a2 2 0 110-4h1.17C5.06 5.687 5 5.35 5 5zm4 1V5a1 1 0 10-1 1h1zm3 0a1 1 0 10-1-1v1h1z" clip-rule="evenodd" />
-                                        <path d="M9 11H3v5a2 2 0 002 2h4v-7zM11 18h4a2 2 0 002-2v-5h-6v7z" />
-                                        </svg>
-                                    </span>
-                                    Dona un computador
-                                </p>
-                                <p class="p-4">
-                                    <span class="float-left mr-2">
-                                        <svg class="h-8 w-8 text-secondary hover:text-accent transition duration-100"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                        <path fill-rule="evenodd" d="M9 3a1 1 0 012 0v5.5a.5.5 0 001 0V4a1 1 0 112 0v4.5a.5.5 0 001 0V6a1 1 0 112 0v5a7 7 0 11-14 0V9a1 1 0 012 0v2.5a.5.5 0 001 0V4a1 1 0 012 0v4.5a.5.5 0 001 0V3z" clip-rule="evenodd" />
-                                        </svg>
-                                    </span>
-                                    Dona partes y piezas
-                                </p>
-                                <p class="p-4">
-                                    <span class="float-left mr-2">
-                                        <svg class="h-8 w-8 text-secondary hover:text-accent transition duration-100"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                        <path fill-rule="evenodd" d="M4 2a2 2 0 00-2 2v11a3 3 0 106 0V4a2 2 0 00-2-2H4zm1 14a1 1 0 100-2 1 1 0 000 2zm5-1.757l4.9-4.9a2 2 0 000-2.828L13.485 5.1a2 2 0 00-2.828 0L10 5.757v8.486zM16 18H9.071l6-6H16a2 2 0 012 2v2a2 2 0 01-2 2z" clip-rule="evenodd" />
-                                        </svg>
-                                    </span>
-                                    Promueve el proyecto en tus redes
-                                </p >
-                                <p class="p-4">
-                                    <span class="float-left mr-2">
-                                        <svg class="h-8 w-8 text-secondary hover:text-accent transition duration-100"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                        <path d="M10 3.5a1.5 1.5 0 013 0V4a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-.5a1.5 1.5 0 000 3h.5a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-.5a1.5 1.5 0 00-3 0v.5a1 1 0 01-1 1H6a1 1 0 01-1-1v-3a1 1 0 00-1-1h-.5a1.5 1.5 0 010-3H4a1 1 0 001-1V6a1 1 0 011-1h3a1 1 0 001-1v-.5z" />
-                                        </svg>
-                                    </span>
-                                    Hazte voluntario
-                                </p>
+        <div className="h-full">
 
+            <div className="flex w-full h-32 md:h-60 font-serif justify-center items-center" style={{ backgroundImage: `url(${abstracto})` }}>
+                <p className="md:text-3xl text-xl text-center text-gray-200">
+                    <span className="font-bold">Buscamos</span> <br />
+                    <span className="font-medium">Computadores usados<span className="text-yellow-500 font-bold"> o </span> partes y piezas </span>
+                </p>
+            </div>
+
+            <div className="flex md:items-center md:justify-center md:px-20 md:py-10 py-16 px-4">
+                <div className="md:flex">
+                    <div className="md:w-2/3 w-ful">
+                        <p className="md:text-5xl text-3xl font-serif pb-3"><span className="font-bold">¿CÓMO</span> <br /> PUEDO AYUDAR?</p>
+                        <hr className="w-32 border-2 border-yellow-500" />
+                        <div className="md:py-5 font-normal text-sm md:w-96 w-auto">
+                            <p>Buscamos computadores usados, partes y repuestos para entregarlos a estudiantes del IST YAVIRAC que no disponen al momento de equipos propios</p>
+                            <div className="flex">
+                                <div className="py-4">
+                                    <button className="py-3 bg-gradient-to-r from-gray-600 to-yellow-400 w-52 uppercase hover:text-gray-200 hover:text-md font-medium">
+                                        Quiero participar
+                                    </button>
+                                </div>
+                                <div className="py-4">
+                                    <button className="p-2 bg-yellow-400 hover:shadow-lg">
+                                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="28" height="28">
+                                            <path className="animate-pulse" d="M501.306,226.7L326.791,52.183c-15.398-15.399-41.063-15.399-56.461,0L234.4,88.113 
+                                            c-6.844,6.844-11.976,17.109-11.976,27.375s3.422,20.531,11.976,27.375l47.906,47.906H41.063C18.821,190.769,0,209.59,0,231.832
+                                            v49.617c0,20.531,18.82,37.641,41.063,37.641h239.532l-46.196,46.196c-6.844,6.844-11.976,17.109-11.976,29.086
+                                            c0,10.266,3.422,20.531,11.976,29.086l35.93,35.93c6.844,6.844,17.109,11.977,27.375,11.977c10.266,0,20.531-3.422,27.375-11.977
+                                            l174.516-174.517c8.555-8.555,11.977-18.821,11.977-29.086C513.283,245.52,509.861,235.255,501.306,226.7z M477.353,260.918
+                                            L302.837,435.435c-3.422,3.422-5.132,3.422-8.555,0l-35.93-35.93c-1.711-1.711-1.711-3.422-1.711-5.132
+                                            c0-1.711,0-3.422,1.711-5.132l75.281-75.281c5.132-5.132,6.844-11.977,3.422-18.821c-3.422-6.844-8.555-10.266-15.398-10.266
+                                            H41.063c-3.422,0-6.844-1.711-6.844-3.422v-49.617c0-3.422,3.422-6.844,6.844-6.844h284.017c6.844,0,13.688-3.422,15.398-10.266
+                                            c1.711-6.844,1.711-13.688-3.422-18.821l-76.992-76.992c-1.711-1.711-1.711-3.422-1.711-3.422c0-1.711,0-1.711,1.711-3.422
+                                            l35.93-35.929c1.711-1.711,5.132-3.422,8.555,0l174.515,174.515c1.711,1.711,1.711,3.422,1.711,5.132
+                                            C479.064,257.497,479.064,259.208,477.353,260.918z"/>
+                                        </svg>
+                                    </button>
+                                </div>
                             </div>
                         </div>
-                        {/* Contenedor de las opciones */}
                     </div>
-                    {/* Imagen */}
-                    <div class="relative">
-                        <div class="img-responsive lg:w-1/2 sm:w-100" >
-                            <img src={pedido}  alt="img"></img>
+                    <div className="font-serif">
+                        <div className="bg-yellow-100 p-10 font-normal">
+                            <p className="pt-4 flex">
+                                <img src={regalo} alt="Not Found" className="w-6 h-6" />
+                                &nbsp;Dona un computador
+                            </p>
+                            <p className="pt-5 flex">
+                                <img src={mano} alt="Not Found" className="w-6 h-6" />
+                                &nbsp;Dona partes y piezas
+                            </p>
+                            <p className="pt-5 flex">
+                                <img src={grupo} alt="Not Found" className="w-6 h-6" />
+                                &nbsp;Promueve el proyecto en redes
+                            </p>
+                            <p className="pt-5 flex">
+                                <img src={persona} alt="Not Found" className="" />
+                                &nbsp;Hazte voluntario
+                            </p>
                         </div>
                     </div>
-                </div>          
+                </div>
+                <div className="md:flex md:w-1/3 hidden">
+                    <img src={pedido} alt="Not Found" className="w-80" />
+                </div>
             </div>
+            <div className="flex md:hidden items-center justify-center">
+                <img src={pedido} alt="Not Found" className="w-80" />
+            </div>
+            <div className="flex h-60 items-center justify-center font-serif p-2" style={{ backgroundImage: `url(${abstracto})` }}>
+                <p className="md:text-3xl text-xl text-center text-gray-200">La <span className="font-bold"> educación </span>es uno de los factores que más influye en el avance y progreso de <br /> personas y sociedades</p>
+
+            </div>
+            <div className="flex items-center justify-center text-center p-2 h-40 bg-white dark:bg-gray-800 font-serif">
+                <p className="text-yellow-400 md:px-5 text-5xl ">10</p>
+                <p className="text-3xl"> Estamos muy orgullosos de nuestros Amables <span className="font-bold text-yellow-400">Donantes.</span></p>
+            </div>
+        </div>
     )
 }
 

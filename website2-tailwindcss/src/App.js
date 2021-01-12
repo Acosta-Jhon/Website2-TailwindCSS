@@ -7,7 +7,7 @@ import Footer from './components/Footer';
 
 const App = () => {
   return (
-    <div className="dark:bg-gray-900 dark:text-gray-100 bg-gray-100 transiti duration-500 font-mono text-justify">
+    <div className="dark:bg-gray-900 dark:text-gray-100 bg-gray-100 transiti duration-500 font-medium text-justify">
       <Header />
       <Carousel />
       <Nosotros />

@@ -1,2 +1,6 @@
 # Website2-TailwindCSS
-Creación de sitio web asignado - 2
+> Acosta Jhon
+> Pastaz Javier
+> Andy De la Cruz
+> Jefferson Ruiz
+> Daniela Sanchez
